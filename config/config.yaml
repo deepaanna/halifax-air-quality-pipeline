@@ -1,0 +1,10 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "air_quality"
+influxdb:
+  url: "http://localhost:8086"
+  token: "yF11xrFLHXDKGXkl-FFACbmjGNvGpX55ApPjjB4494ssIb4SzxwSXGeYlmWUUY5aWRV_tusfSh26DwC40YZBcA=="
+  org: "halifax_project"
+  bucket: "air_quality"
+thresholds:
+  pm25_anomaly: 50.0
